@@ -43,3 +43,21 @@ end
 long_planeteer_calls(short_words)
 
 #long_planeteer_calls(assorted_words)
+
+snacks = ["crackers", "gouda", "thyme"]
+
+soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+
+ingredients = ["garlic", "bread", "rosemary"]
+
+def find_the_cheese(cheeses)
+
+cheeses.find do |cheese|
+
+cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
+
+end
+
+end
+
+find_the_cheese(ingredients)
